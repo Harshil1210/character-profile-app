@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+.app-container {
+  background-image: url("./Images/pexels-stephan-seeber-1261728.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.text-gradient-blue {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #9c24a7, #0083b0);
+  display: inline-block; /* Ensure the gradient applies to the entire text */
+}
+.text-gradient-green {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #f7850a, #e41672);
+  display: inline-block; /* Ensure the gradient applies to the entire text */
+}
